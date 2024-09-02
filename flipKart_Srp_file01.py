@@ -15,7 +15,6 @@ all_data = []
 for all_page in range (1,10):
     driver.get(f"https://www.flipkart.com/footwear/kids-infant-footwear/infants/pr?sid=osp%2Cmba%2Cqzr&otracker=nmenu_sub_Baby+%26+Kids_0_Baby+Footwear&otracker=nmenu_sub_Baby+%26+Kids_0_Infant+Footwear&page={all_page}")
     
-    
     all_url = driver.find_elements(By.XPATH, "//a[@class='rPDeLR']")
     
     for url in all_url:
@@ -60,7 +59,6 @@ for sheet_url in pandas_kahini["Links"]:
     except:
         sizes = ""
         
-    
     try:
         rating = driver.find_element(By.XPATH, "//div[@class='XQDdHH _1Quie7']").text
     except:
@@ -77,8 +75,7 @@ for sheet_url in pandas_kahini["Links"]:
         "Price": price,
         "Size": sizes,
         "Rating": rating,
-        "Seller": seller
-        
+        "Seller": seller 
     }
     
     all_data.append(excel_list)
