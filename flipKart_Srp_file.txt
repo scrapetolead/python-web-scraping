@@ -1,0 +1,12 @@
+
+Visit: https://www.flipkart.com/footwear/kids-infant-footwear/infants/pr?sid=osp,mba,qzr&otracker=nmenu_sub_Baby%20%26%20Kids_0_Baby%20Footwear&otracker=nmenu_sub_Baby%20%26%20Kids_0_Infant%20Footwear
+
+and Scrape
+
+Name
+Rating
+Price
+Seller Name
+Total Rating
+Total Reviews
+Size
